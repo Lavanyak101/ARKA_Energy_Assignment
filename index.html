@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three.js Polygon Creator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+    <!-- UI Buttons -->
+    <div id="ui-container">
+        <button id="completeBtn">Complete Polygon</button>
+        <button id="copyBtn">Copy Polygon</button>
+        <button id="resetBtn">Reset</button>
+    </div>
+
+    <!-- Debug Panel -->
+    <div id="debug-panel">
+        <p><strong>Debug Info:</strong></p>
+        <p>Total Objects in Scene: <span id="totalObjects">0</span></p>
+        <p>Copied Polygon Exists: <span id="copyExists">No</span></p>
+        <p>Copy is Moving: <span id="isMoving">No</span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
